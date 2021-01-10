@@ -1,0 +1,60 @@
+.navbar {
+    display: grid;
+    padding: 0.5rem;
+    background: black;
+    grid-template-columns: auto 1fr;
+}
+
+.nav-link {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav--link__home {
+    outline: none;
+    color: #7aebfa;
+    transition: 1000ms;
+    text-decoration: none;
+    -webkit-user-select: none;
+}
+
+.nav--link__home:hover {
+    color: white;
+    font-size: 120%;
+    text-decoration-line: underline;
+}
+
+.nav--link__about {
+    outline: none;
+    color: #f10037;
+    transition: 1000ms;
+    text-decoration: none;
+    -webkit-user-select: none;
+}
+
+.nav--link__about:hover {
+    color: white;
+    font-size: 120%;
+    text-decoration-line: underline;
+}
+
+.nav--link__tours {
+    outline: none;
+    color: #38c96c;
+    transition: 1000ms;
+    text-decoration: none;
+    -webkit-user-select: none;
+}
+
+.nav--link__tours:hover {
+    color: white;
+    font-size: 120%;
+    text-decoration-line: underline;
+}
+
+.navbar__img {
+    border-radius: 17px;
+}

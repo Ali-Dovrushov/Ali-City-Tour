@@ -1,0 +1,8 @@
+.footer__navbar {
+    width: 100vw;
+    height: 100px;
+    background-color: grey;
+    opacity: 6.5;
+    position: relative;
+    left: 0; bottom: 0;
+}

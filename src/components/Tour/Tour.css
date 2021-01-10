@@ -1,0 +1,63 @@
+@import '../../index.css';
+
+.tour {
+    background: green;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.responsive-image {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.img--container {
+    position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    display: block;
+    top: 5%;
+    right: 5%;
+    color: red;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 1000ms;
+    opacity: 0.5;
+}
+
+.img--container:hover {
+    opacity: 1;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+    font-size: 60px;
+}
+
+.tour-info {
+    padding: 1rem 0.5rem;
+}
+
+.h3__tour--info {
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.h4__tour--info {
+    text-transform: capitalize;
+    color: red;
+}
+
+.h5__tour--info {
+    text-transform: capitalize;
+}
+
+.info-btn {
+    color: yellow;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

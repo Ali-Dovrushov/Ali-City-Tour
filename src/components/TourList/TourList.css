@@ -1,0 +1,8 @@
+.tour--list__container {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.5rem;
+}
