@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import './components/Navbar/Navbar';
+import './components/Navbar/Navbar.jsx';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import TourList from './components/TourList';
+import Navbar from './components/Navbar/Navbar.jsx';
+import TourList from './components/TourList/index';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import About from './components/About/About'
-import Home from './components/Home/Home'
+import About from './components/About/About.jsx'
+import Home from './components/Home/Home.jsx'
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './TourList.css';
-import Tour from '../Tour/Tour';
+import Tour from '../Tour/Tour.jsx';
 import { tourData } from '../DataBase/tourData';
 
 
